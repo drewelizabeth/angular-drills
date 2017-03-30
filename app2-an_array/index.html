@@ -3,10 +3,11 @@
 		<link rel="stylesheet" href="style.css"></link>
 	</head>
 	<body ng-controller="mainCtrl">
-	
-		{{ test }}
+		<div ng-repeat="person in people">
 
-		{{ getData.name }}  {{ getData.email }}
+			{{ person.name }}
+
+		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 		<script src="app.js"></script>

@@ -2,7 +2,7 @@
 	<body ng-controller="mainCtrl">
 	
 
-		<input type="text" ng-filter="filterText"/><br><br>
+		<input type="text" ng-model="filterText"/><br><br>
 
 		<div ng-repeat="person in people | filter: filterText">
 

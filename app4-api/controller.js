@@ -1,4 +1,4 @@
-angular.module('app4').controller('mainCtrl', function($scope) {
+angular.module('app4').controller('mainCtrl', function($scope, service) {
     
     $scope.test = "hello";
 

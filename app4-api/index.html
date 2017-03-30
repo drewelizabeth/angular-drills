@@ -1,9 +1,10 @@
 <html ng-app="app4">
 	<body ng-controller="mainCtrl">
-		{{ test }}
-		<div ng-repeat="person in people">
+		
+		<input ng-model="filterName" /><br><br>
+		<div ng-repeat="person in people | filter: filterName">
 
-			{{ person }}
+			{{ person.name }}<br><br>
 			
 		</div>
 		

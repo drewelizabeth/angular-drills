@@ -8,4 +8,6 @@ angular.module('app4').controller('mainCtrl', function($scope) {
         })
     }
 
+    $scope.getPeople();
+
 })
